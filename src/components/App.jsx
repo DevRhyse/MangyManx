@@ -6,7 +6,7 @@ import Shop from './Shop';
 import About from './About';
 
 export default function App() {
-  const [activeComponent, setActiveComponent] = React.useState('home');
+  const [activeComponent, setActiveComponent] = React.useState('about');
 
   const handleComponentChange = (componentNumber) => {
     setActiveComponent(componentNumber);
